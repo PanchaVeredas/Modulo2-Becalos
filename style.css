@@ -1,0 +1,99 @@
+/*selector universal*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*CCS QUE ME DIO GOOGLE FONTS*/
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+/*comentario largo*/
+/*selector de tipo etiqueta*/
+
+body{
+    background-color: grey;
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: beige;
+}
+/*selector de tipo: clase*/
+
+.tarjeta{
+    background-color: burlywood;
+    width: 300px;
+    border-radius: 3%;
+    /*centrando elementos*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px;
+    padding: 12px;
+    border: 3px solid black;
+    transition: all 0.4s ease-in-out; /*transición suave*/
+
+}
+/*pseudoclase hover para crer animaciones*/
+.tarjeta:hover{
+    background-color: azure;
+    transform: scale(1.05);
+    transform: rotate(3deg);
+}
+
+
+.tarjeta .imagen{
+    width: 300px;
+}
+
+.tarjeta img {
+    width: 200px;
+    object-fit: contain;
+    border-radius: 5%;
+}
+
+.tarjeta p{
+    color: black;
+    font-size: 20px;
+}
+
+/*selector de tipo:ID*/
+/*algo que no se repite es UNICO*/
+#arroz{
+    color: grey;
+}
+
+#pastel{
+    color: red;
+}
+
+#gaznate{
+    color: pink;
+}
+
+#flan{
+    color: mediumaquamarine;
+}
+
+#churros{
+    color: blue;
+}
+
+#elote{
+    color: brown;
+}
